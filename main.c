@@ -86,7 +86,6 @@ void checkCPF(char cpf[]) {
     resto = valor % 11;
     int digit1 = (resto < 2) ? 0 : 11 - resto;
     
-
     if (digit1 == (cpf[9] - '0'))
         is_digit1 = true;
 
@@ -206,5 +205,6 @@ void Printbanner() {
         "===========================================     \n" 
         "\n"
     RESET);
+
 
 }
