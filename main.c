@@ -57,6 +57,7 @@ int main() {
         printf(RED BOLD "Invalid option!" RESET);
 
     return 0;
+    
 }
 
 /**
@@ -175,6 +176,7 @@ void extractDigits(char *input) {
             input[j++] = input[i]; 
     }
     input[j] = '\0'; // Null-terminate the sanitized string
+    
 }
 
 /**
@@ -187,6 +189,7 @@ void clearScreen() {
     #elif defined(__linux__) || defined(__APPLE__) || defined(__FreeBSD__)
         system("clear");
     #endif
+    
 }
 
 
@@ -205,6 +208,6 @@ void Printbanner() {
         "===========================================     \n" 
         "\n"
     RESET);
-
-
+        
 }
+
