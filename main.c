@@ -54,7 +54,7 @@ int main() {
     else if (length == CNPJ_LEN)
         checkCNPJ(document);
     else
-        printf(RED BOLD "Invalid option!" RESET);
+        printf(RED BOLD "Invalid option!\n" RESET);
 
     return 0;
     
@@ -210,4 +210,3 @@ void Printbanner() {
     RESET);
         
 }
-
