@@ -192,7 +192,6 @@ void clearScreen() {
     
 }
 
-
 /**
  * @brief Prints the ASCII art application banner.
  */
@@ -210,3 +209,4 @@ void Printbanner() {
     RESET);
         
 }
+
