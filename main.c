@@ -28,9 +28,9 @@
 // --- Function Prototypes ---
 void checkCPF(char cpf[]);
 void checkCNPJ(char cnpj[]);
+void extractDigits(char *input);
 void clearScreen();
 void Printbanner();
-void extractDigits(char *input);
 
 /**
  * @brief Main program entry point.
@@ -209,4 +209,5 @@ void Printbanner() {
     RESET);
         
 }
+
 
