@@ -61,13 +61,13 @@ Run the program:
 **On Linux/macOS:**
 
 ```bash
-./checkbr
+./main
 ```
 
 **On Windows:**
 
 ```bash
-.\checkbr.exe
+.\main.exe
 ```
 
 ⚠️ If colors or characters appear broken on Windows, set UTF-8 mode first:
